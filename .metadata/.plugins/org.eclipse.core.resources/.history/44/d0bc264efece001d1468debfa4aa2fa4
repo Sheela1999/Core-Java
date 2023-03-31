@@ -1,0 +1,26 @@
+package com.xworkz.oopsprogramming;
+
+public class Lenovo extends Laptop{
+	
+	String password;
+	float size;
+	String os;
+	
+	public Lenovo(String password, float size, String os) {
+		this.password = password;
+		this.size = size;
+		this.os = os;
+		System.out.println(this.password);
+		System.out.println(this.size);
+		System.out.println(this.os);	
+	}
+	
+	public void giveFingerPrint() {
+		System.out.println("New feature of Lenovo");
+	}
+	
+	public void foldable(){
+		System.out.println("up to 180 degree foldable");
+	}
+
+}

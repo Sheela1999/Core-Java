@@ -1,0 +1,24 @@
+package com.xworkz.oopsprogramming;
+
+public class Runner extends Laptop{
+	
+	public static void main(String[] args) {
+		
+		Laptop laptop = new Laptop();
+		Hp hp = new Hp();
+		Lenovo lenovo = new Lenovo();
+		Dell dell = new Dell();
+		
+		laptop.photos();
+		laptop.files();
+		laptop.program();
+		Hp.speed();
+		Hp.speakers();
+		Lenovo.giveFingerPrint();
+		Lenovo.foldable();
+		Dell.output();
+		Dell.usage();
+		
+	}
+
+}

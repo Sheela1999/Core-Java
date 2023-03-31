@@ -1,0 +1,18 @@
+package com.xworkz.oopsprogramming;
+
+public class Dell extends Laptop{
+	
+	String input;
+	int memory;
+	String os;
+	
+	public static void output(){
+		System.out.println("gives the output");
+	}
+	
+	public static void usage(){
+		System.out.println("using touchpad and penpad");
+		
+	}
+
+}

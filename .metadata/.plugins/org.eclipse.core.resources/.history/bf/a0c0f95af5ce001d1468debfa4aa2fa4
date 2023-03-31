@@ -1,0 +1,24 @@
+package com.xworkz.oopsprogramming;
+
+public class Laptop {
+	
+	String laptopName;
+	int price;
+	int storage;
+	String type;  
+	byte ram;
+	
+	public static void photos() {
+		System.out.println("To make a memories");
+		
+	}
+	
+	public static void files() {
+		System.out.println("To Store Data");
+	}
+	
+	public static void program() {
+		System.out.println("To run java");
+	}
+
+}
