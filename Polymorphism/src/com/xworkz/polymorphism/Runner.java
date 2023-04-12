@@ -3,7 +3,8 @@ package com.xworkz.polymorphism;
 public class Runner {
 	
 	public static void main(String[] args) {
-		 
+		
+	//	
 	   Vehicle veh = new Vehicle(); 
 	   veh.ride();
 	   veh.travel();
